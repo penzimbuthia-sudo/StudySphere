@@ -1,0 +1,100 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "name": "React Assignment",
+      "description": "Build a dashboard with CRUD operations using React and hooks.",
+      "priority": "high",
+      "dueDate": "2026-05-15",
+      "status": "pending",
+      "createdAt": "2026-05-10T09:00:00"
+    },
+    {
+      "id": "2",
+      "name": "Database CAT",
+      "description": "Practice SQL queries and normalization forms up to 3NF.",
+      "priority": "medium",
+      "dueDate": "2026-05-16",
+      "status": "pending",
+      "createdAt": "2026-05-11T10:30:00"
+    },
+    {
+      "id": "3",
+      "name": "UI Design Review",
+      "description": "Review Figma design and components with the design team.",
+      "priority": "low",
+      "dueDate": "2026-05-17",
+      "status": "completed",
+      "createdAt": "2026-05-09T14:00:00"
+    },
+    {
+      "name": "Testing",
+      "description": "Trial",
+      "priority": "high",
+      "dueDate": "2026-05-14",
+      "status": "pending",
+      "createdAt": "2026-05-13T20:18:52.",
+      "id": "Q0u4inz_NX4"
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "title": "React Hooks",
+      "body": "useState, useEffect, useContext, useReducer are important. Practice custom hooks to abstract logic cleanly.",
+      "createdAt": "2026-05-14T08:45:00",
+      "updatedAt": "2026-05-14T09:10:00"
+    },
+    {
+      "id": "2",
+      "title": "Database Normalization",
+      "body": "1NF, 2NF, 3NF. Reduce redundancy and improve data integrity. Each table should have a single purpose.",
+      "createdAt": "2026-05-13T13:20:00",
+      "updatedAt": "2026-05-13T13:20:00"
+    },
+    {
+      "id": "3",
+      "title": "Study Plan",
+      "body": "Complete React project, Revise DBMS, OS Quiz. Focus on practical implementations and past exam questions.",
+      "createdAt": "2026-05-13T16:00:00.000Z",
+      "updatedAt": "2026-05-13T07:30:00.000Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1",
+      "label": "Deep work – Architecture docs",
+      "duration": 1500,
+      "startedAt": "2026-05-13T09:00:00.000Z",
+      "endedAt": "2026-05-13T09:25:00.000Z"
+    },
+    {
+      "id": "2",
+      "label": "Code review session",
+      "duration": 1500,
+      "startedAt": "2026-05-13T10:00:00.000Z",
+      "endedAt": "2026-05-13T10:25:00.000Z"
+    },
+    {
+      "id": "3",
+      "label": "Unit test writing",
+      "duration": 1500,
+      "startedAt": "2026-05-13T11:00:00.000Z",
+      "endedAt": "2026-05-13T11:25:00.000Z"
+    },
+    {
+      "label": "Focus Session",
+      "duration": 40,
+      "startedAt": "2026-05-13T20:20:09.181Z",
+      "endedAt": "2026-05-13T20:20:49.439Z",
+      "id": "wBriO6xc0cw"
+    },
+    {
+      "label": "Focus Session",
+      "duration": 62,
+      "startedAt": "2026-05-14T05:49:04.910Z",
+      "endedAt": "2026-05-14T05:50:07.054Z",
+      "id": "u4ZlqxRA5XM"
+    }
+  ]
+}

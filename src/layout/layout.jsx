@@ -17,7 +17,6 @@ export default function Layout() {
       )}
 
       <div className="flex-1 flex flex-col min-w-0">
-        {/* Mobile top bar */}
         <header className="lg:hidden flex items-center gap-3 px-4 py-3 bg-[#1a1d2e] text-white sticky top-0 z-10">
           <button
             onClick={() => setSidebarOpen(true)}
