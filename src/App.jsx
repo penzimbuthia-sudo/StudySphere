@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./layout/layout";
 import Dashboard from "./pages/Dashboard";
-import Tasks from "./pages/Tasks";
+import Task from "./pages/Task";
 import Notes from "./pages/Notes";
 import Timer from "./pages/Timer";
 
