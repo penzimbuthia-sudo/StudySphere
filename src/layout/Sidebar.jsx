@@ -16,7 +16,6 @@ export default function Sidebar({ open, onClose }) {
         lg:static lg:translate-x-0
         ${open ? "translate-x-0" : "-translate-x-full"}`}
     >
-      {/* Logo */}
       <div className="flex items-center gap-2 px-6 py-5 border-b border-white/10 ">
         <div className="w-8 h-8 bg-indigo-500 rounded-lg flex items-center justify-center">
           <Timer size={16} className="text-white" />
@@ -32,7 +31,6 @@ export default function Sidebar({ open, onClose }) {
        
       </div>
 
-      {/* Nav */}
       <nav className="flex-1 px-4 py-6 space-y-1">
         {navItems.map(({ to, label, icon: Icon }) => (
           <NavLink

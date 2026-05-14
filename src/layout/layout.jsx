@@ -9,7 +9,6 @@ export default function Layout() {
     <div className="flex min-h-screen bg-[#f5f6fa]">
       <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
-      {/* Mobile backdrop */}
       {sidebarOpen && (
         <div
           className="fixed inset-0 bg-black/40 z-20 lg:hidden"
