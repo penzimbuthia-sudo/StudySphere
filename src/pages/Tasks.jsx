@@ -46,7 +46,7 @@ export default function Tasks() {
       <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
         {filtered.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-16 text-center">
-            <span className="text-4xl mb-3">📋</span>
+            <span className="text-4xl mb-3"></span>
             <p className="text-sm font-semibold text-gray-500">No tasks found</p>
             <p className="text-xs text-gray-400 mt-0.5">Try adjusting your filters or add a new task.</p>
           </div>
