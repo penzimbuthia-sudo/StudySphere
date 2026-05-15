@@ -79,10 +79,10 @@ export default function TimerCircle({
       )}
 
       <div className="bg-indigo-50 rounded-xl p-4 flex items-start gap-3 w-full border border-indigo-100">
-        <span className="text-2xl shrink-0">🌱</span>
+        <span className="text-2xl shrink-0"></span>
         <div>
           <p className="text-sm font-bold text-indigo-800">Stay focused, stay consistent,</p>
-          <p className="text-sm text-indigo-600 font-medium">and success will follow. You've got this! 💪</p>
+          <p className="text-sm text-indigo-600 font-medium">and success will follow. You've got this! </p>
         </div>
       </div>
     </div>
