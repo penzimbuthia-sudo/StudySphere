@@ -72,7 +72,7 @@ export default function Notes() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {displayNotes.length === 0 && !search && (
           <div className="col-span-full flex flex-col items-center justify-center py-16 text-center">
-            <span className="text-4xl mb-3">📝</span>
+            <span className="text-4xl mb-3"></span>
             <p className="text-sm font-semibold text-gray-500">No notes yet</p>
             <p className="text-xs text-gray-400 mt-0.5">Click Add Note to capture your first thought.</p>
           </div>

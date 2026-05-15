@@ -63,7 +63,6 @@ export function useNotes() {
   const toggleExpand = (id) =>
     setExpandedId((prev) => (prev === id ? null : id));
 
-  // Title-only search results
   const titleMatches = search
     ? notes.filter((n) =>
         n.title.toLowerCase().includes(search.toLowerCase())

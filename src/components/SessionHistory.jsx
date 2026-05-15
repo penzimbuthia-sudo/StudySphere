@@ -15,7 +15,7 @@ export default function SessionHistory({ sessions, todaySessions }) {
 
       {sessions.length === 0 ? (
         <div className="flex flex-col items-center justify-center py-12 text-center">
-          <span className="text-4xl mb-3">⏱️</span>
+          <span className="text-4xl mb-3"></span>
           <p className="text-sm font-semibold text-gray-500">No sessions yet</p>
           <p className="text-xs text-gray-400 mt-0.5">Start a timer to record your first session.</p>
         </div>

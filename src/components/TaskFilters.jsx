@@ -12,7 +12,6 @@ export default function TaskFilters({
 
   return (
     <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-6">
-      {/* Search */}
       <div className="relative w-full sm:w-auto">
         <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
         <input
@@ -24,7 +23,6 @@ export default function TaskFilters({
         />
       </div>
 
-      {/* Status tabs */}
       <div className="flex items-center gap-1 bg-white border border-gray-200 rounded-xl p-1">
         {["all", "pending", "completed"].map((s) => (
           <button
@@ -41,7 +39,6 @@ export default function TaskFilters({
         ))}
       </div>
 
-      {/* Priority filter */}
       <select
         value={filterPriority}
         onChange={(e) => setFilterPriority(e.target.value)}
@@ -53,7 +50,6 @@ export default function TaskFilters({
         <option value="low">Low</option>
       </select>
 
-      {/* Sort */}
       <select
         value={sortBy}
         onChange={(e) => setSortBy(e.target.value)}

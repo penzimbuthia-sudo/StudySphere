@@ -47,7 +47,7 @@ export default function Dashboard() {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-6 sm:mb-8">
         <div>
           <h1 className="text-xl sm:text-2xl font-extrabold text-gray-900 tracking-tight">
-            {greeting}, Student! 👋
+            {greeting}, Student! 
           </h1>
           <p className="text-sm text-gray-500 mt-0.5 font-normal">
             Stay consistent and achieve your goals.
