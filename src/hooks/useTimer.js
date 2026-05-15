@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API = "http://localhost:3001";
+const API = "https://studysphere-25ms.onrender.com";
 const POMODORO = 25 * 60;
 
 export function formatTime(secs) {

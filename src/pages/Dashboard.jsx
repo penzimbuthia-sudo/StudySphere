@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { CheckSquare, Clock, FileText, Timer, Play } from "lucide-react";
 import StatCard from "../components/StatCard";
 
-const API = "http://localhost:3001";
+const API = "https://studysphere-25ms.onrender.com";
 
 const priorityDot = {
   high: "bg-red-500",
@@ -47,7 +47,7 @@ export default function Dashboard() {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-6 sm:mb-8">
         <div>
           <h1 className="text-xl sm:text-2xl font-extrabold text-gray-900 tracking-tight">
-            {greeting}, Penzi! 👋
+            {greeting}, Student! 👋
           </h1>
           <p className="text-sm text-gray-500 mt-0.5 font-normal">
             Stay consistent and achieve your goals.

@@ -2,9 +2,7 @@ import { Play, Pause, RotateCcw, StopCircle, Check } from "lucide-react";
 import Button from "./Button";
 import { formatTime } from "../hooks/useTimer";
 
-/**
- * TimerCircle — SVG ring timer + label + controls
- */
+
 export default function TimerCircle({
   timeLeft,
   running,
@@ -21,12 +19,10 @@ export default function TimerCircle({
 }) {
   return (
     <div className="bg-white rounded-2xl p-5 sm:p-8 shadow-sm border border-gray-100 flex flex-col items-center gap-5">
-      {/* Badge */}
       <span className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-full text-xs font-bold tracking-wide">
         Pomodoro (25/5)
       </span>
 
-      {/* Session label input */}
       <input
         value={label}
         onChange={(e) => setLabel(e.target.value)}
@@ -35,7 +31,6 @@ export default function TimerCircle({
         className="text-center text-sm border border-gray-200 rounded-lg px-3 py-2 w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-indigo-300 disabled:bg-gray-50 disabled:text-gray-400 font-medium"
       />
 
-      {/* Ring */}
       <div className="relative w-48 h-48 sm:w-60 sm:h-60">
         <svg viewBox="0 0 240 240" className="w-full h-full">
           <circle cx="120" cy="120" r="100" fill="none" stroke="#e5e7eb" strokeWidth="10" />
@@ -57,7 +52,6 @@ export default function TimerCircle({
         </div>
       </div>
 
-      {/* Controls */}
       <div className="flex items-center gap-2 sm:gap-3 w-full justify-center flex-wrap">
         {!running ? (
           <Button variant="timer" size="lg" onClick={onStart} className="flex-1 max-w-36">
@@ -78,14 +72,12 @@ export default function TimerCircle({
         )}
       </div>
 
-      {/* Completed alert */}
       {ended && (
         <div className="flex items-center gap-2 text-emerald-700 bg-emerald-50 border border-emerald-200 px-4 py-2.5 rounded-xl text-sm font-semibold w-full justify-center">
           <Check size={15} /> Session complete! Click End to save it.
         </div>
       )}
 
-      {/* Motivational banner */}
       <div className="bg-indigo-50 rounded-xl p-4 flex items-start gap-3 w-full border border-indigo-100">
         <span className="text-2xl shrink-0">🌱</span>
         <div>
